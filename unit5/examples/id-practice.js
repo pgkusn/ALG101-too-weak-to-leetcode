@@ -1,16 +1,22 @@
-var readline = require('readline');
+// var readline = require('readline');
 
-let lines = [];
-var rl = readline.createInterface({
-    input: process.stdin
-});
+// let lines = [];
+// var rl = readline.createInterface({
+//     input: process.stdin
+// });
 
-rl.on('line', function (line) {
-    lines.push(line);
-});
-rl.on('close', function () {
-    solve(lines);
-});
+// rl.on('line', function (line) {
+//     lines.push(line);
+// });
+// rl.on('close', function () {
+//     solve(lines);
+// });
+
+solve([
+    'M140051653',
+    'M140051654',
+    'A123456789'
+]);
 
 function solve(lines) {
     lines.forEach(line => {
